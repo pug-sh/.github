@@ -4,7 +4,7 @@
 
 ### Analytics you own, built in the open.
 
-Pug is open-source product analytics. It records what happens in your product: page views, clicks, scrolls and your own events. Identify a person at sign-in, and their events land on one profile. Then ask questions with trends, funnels, retention and user flows.
+See how people use your product with trends, funnels, retention, and user flows. Cookieless by default: visitors are counted, not identified, until they opt in.
 
 Self-host the whole stack, or start free on **Pug Cloud**. The same code runs both.
 
@@ -93,6 +93,17 @@ Flutter SDK. Events, identity, sessions and batching for mobile and desktop apps
 <tr>
 <td width="50%" valign="top">
 
+### [sdk-android](https://github.com/pug-sh/sdk-android)
+
+Android SDK. App lifecycle, screen views and installs tracked automatically, for Kotlin and Java apps.
+
+`sh.pug:android` `MIT`
+
+[![maven](https://img.shields.io/maven-central/v/sh.pug/android?color=3C68D9&labelColor=172646&logo=apachemaven)](https://central.sonatype.com/artifact/sh.pug/android)
+
+</td>
+<td width="50%" valign="top">
+
 ### [sdk-node](https://github.com/pug-sh/sdk-node)
 
 Node.js SDK. Trusted server-side events, plus profile and insight reads.
@@ -102,6 +113,8 @@ Node.js SDK. Trusted server-side events, plus profile and insight reads.
 [![npm](https://img.shields.io/npm/v/@pug-sh/node?color=3C68D9&labelColor=172646&logo=npm)](https://www.npmjs.com/package/@pug-sh/node)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [sdk-ruby](https://github.com/pug-sh/sdk-ruby)
@@ -113,6 +126,7 @@ Ruby SDK. Server-side events plus profile and insight reads, for Rails or plain 
 [![gem](https://img.shields.io/gem/v/pug-sh?color=3C68D9&labelColor=172646&logo=rubygems)](https://rubygems.org/gems/pug-sh)
 
 </td>
+<td width="50%" valign="top"></td>
 </tr>
 </table>
 
@@ -139,7 +153,7 @@ track('order_completed', { amount: 49.0, currency: 'USD' })
 ## Where this goes
 
 - **A rock-solid analytics core first.** Events, profiles, insights and dashboards you can trust.
-- **More SDKs.** Native Android, iOS and React Native, plus server SDKs for Go, Rust, Java and Python.
+- **More SDKs.** Native iOS and React Native, plus server SDKs for Go, Rust, Java and Python.
 - **DPDP hardening.** Consent records, data-principal rights and breach notification for India's privacy law, on top of the erasure that ships today.
 - **Customer engagement.** Campaigns built from the profiles and events you already track, sent by push, email, SMS, WhatsApp or webhook.
 
